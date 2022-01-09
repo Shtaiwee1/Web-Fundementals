@@ -1,0 +1,22 @@
+h1 {
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  background-color: black;
+}
+h2 {
+  font-family: monospace;
+  color: white;
+  text-align: center;
+  background-color: rgb(213, 116, 213);
+}
+h3 {
+  font-family: sans-serif;
+  text-decoration: underline black;
+  text-align: right;
+  background-color: rgb(119, 119, 204);
+}
+
+h1 span {
+  color: cyan;
+}
