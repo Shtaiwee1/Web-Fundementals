@@ -1,0 +1,50 @@
+img {
+  height: 200px;
+}
+
+.group1 {
+  margin-bottom: 10px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #58c4dd;
+  display: flex;
+}
+
+.group2 {
+  padding: 20px;
+  justify-content: center;
+  background-color: #d4afae;
+  display: flex;
+}
+
+.group3 {
+  margin-top: 10px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #fcfcff;
+  display: flex;
+}
+
+.container {
+  padding: 10px;
+  background-color: rgb(212, 212, 212);
+  width: 800px;
+}
+
+.nu1,
+.nu6 {
+  margin-right: 75px;
+}
+
+.nu3,
+.nu8 {
+  margin-left: 75px;
+}
+
+.nu4 {
+  margin-right: 60px;
+}
+
+.nu5 {
+  margin-left: 60px;
+}
