@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+}
+
+.row div:first-child {
+  margin-left: 0px;
+}
+
+.col {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50px;
+  background-color: #5f9fa0;
+  flex: 1;
+}
+
+.col-2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50px;
+  background-color: #5f9fa0;
+  flex: 2;
+}
+
+.col-3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50px;
+  background-color: #5f9fa0;
+  flex: 3;
+}
+
+body {
+  width: auto;
+  justify-content: space-between;
+}
