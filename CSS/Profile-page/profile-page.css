@@ -208,7 +208,8 @@ body {
 }
 
 .info1 {
-  height: 215px;
+  padding-top: 23px;
+  height: 244px;
   border: 2px solid silver;
 }
 
@@ -232,6 +233,9 @@ body {
 }
 
 .header2 p {
+  position: relative;
+  top: -82px;
+  right: -29px;
   margin-top: 14px;
   font-size: 30px;
   color: white;
@@ -244,6 +248,29 @@ body {
 
 .person {
   width: 60px;
+}
+
+#special-num1 {
+  padding: 0 10px 0 10px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  color: black;
+  border: 1px solid #cccccc;
+  position: relative;
+  top: -2px;
+  right: 157px;
+  display: inline-block;
+}
+
+#special-num2 {
+  padding: 3px 6px 3px 6px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  color: black;
+  border: 1px solid #cccccc;
+  top: 0px;
+  right: 133px;
+  display: inline-block;
 }
 
 /********************************Your connections*********************************
@@ -259,6 +286,9 @@ body {
 }
 
 .header3 p {
+  position: relative;
+  top: -85px;
+  right: -57px;
   margin-top: 14px;
   font-size: 30px;
   color: white;
@@ -306,8 +336,9 @@ body {
 }
 
 #phil {
+  margin-right: 120px;
   position: relative;
-  right: 10px;
+  right: -1px;
   top: 5px;
 }
 
@@ -330,6 +361,18 @@ body {
   position: relative;
   left: -62px;
   top: 10px;
+}
+
+#arry1 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid silver;
+}
+
+#anchor {
+  position: relative;
+  top: 0px;
+  right: 105px;
+  margin: 10px 0 10px 0;
 }
 
 .mark {
