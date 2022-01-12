@@ -1,0 +1,248 @@
+/* ***********************************************HEADER************************************* */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Open+Sans&family=Roboto&family=Rubik:wght@400;500;600;700&display=swap");
+.top {
+  width: 1010px;
+  height: 565px;
+  background-color: #245076;
+}
+
+img {
+  padding: 10px 0px 0px 30px;
+  height: 100px;
+  width: 350px;
+}
+
+.button {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.616);
+  text-decoration: none;
+  color: white;
+  padding: 5px 8px 7px 8px;
+  border-radius: 7px;
+  border: 2px solid silver;
+  background-color: #245076;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.text-size {
+  height: 30px;
+  padding-left: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text-size a {
+  font-family: "Open sans", sans-serif;
+  color: #a89918;
+  text-decoration: underline;
+}
+
+.text-size p {
+  font-family: "Open sans", sans-serif;
+  padding-right: 3px;
+  color: white;
+}
+
+span {
+  padding: 0px 2px 0px 2px;
+  color: black;
+}
+
+.search-bar {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+  margin-right: 15px;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  background-color: #444444;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.search-bar input {
+  padding: 10px;
+}
+
+/* *********************************NAV********************************** */
+
+nav ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: "Open sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  box-shadow: 2px 2px 2px black;
+  margin-left: 70px;
+  border: 1px soli black;
+  border-radius: 7px;
+  width: 910px;
+  margin-top: 20px;
+
+  background-color: #487fad;
+}
+
+nav ul:last-child {
+  padding-right: 50px;
+}
+
+nav ul:first-child {
+  padding-left: 60px;
+}
+
+/* ************************************************ARTICLE*************************************** */
+
+.top article {
+  display: flex;
+}
+
+article ul {
+  width: 267px;
+  text-align: center;
+  font-family: "Open sans", sans-serif;
+  color: white;
+  list-style-type: none;
+}
+
+article ul li {
+  padding-top: 7px;
+}
+
+article ul li a {
+  text-decoration: underline;
+}
+
+.top article ul li::before {
+  list-style: none;
+  content: "»";
+  color: #debb2f;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.big-article {
+  justify-content: flex-end;
+  text-align: center;
+  width: 880px;
+}
+
+.big-article p {
+  margin-top: 0px;
+  display: inline-block;
+  width: 657px;
+}
+
+.text-color {
+  font-weight: 500;
+  font-family: "Open sans", sans-serif;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #debb2f;
+}
+
+#text-color-2 {
+  font-family: "Open sans", sans-serif;
+  color: white;
+}
+
+/* ******************************************MIDDLE OF THE PAGE ***************************************** */
+
+.middle {
+  justify-content: space-between;
+  display: flex;
+  width: 1010px;
+  height: 320px;
+}
+
+.middle article {
+  margin-top: 20px;
+  width: 391px;
+
+  font-family: "Open sans", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.middle article ul a {
+  color: #73a7d5;
+  text-decoration: none;
+}
+
+.middle article ul {
+  text-align: left;
+}
+
+.middle article ul a::before {
+  content: "■";
+  color: black;
+  padding-right: 40px;
+}
+
+.middle article p a {
+  color: #73a7d5;
+  text-decoration: none;
+}
+
+.middle .article1 {
+  border-top: 3px solid #73a7d5;
+  margin-left: 68px;
+}
+
+.middle .article2 {
+  border-top: 3px solid #73a7d5;
+  margin-right: 33px;
+}
+
+.middle article ul li {
+  width: 365px;
+}
+
+/* **********************************FOOTER************************* */
+
+footer {
+  margin-top: 20px;
+  background-color: #2a5f8c;
+  height: 110px;
+  width: 1010px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #5c92c0;
+  font-family: "Open sans", sans-serif;
+}
+
+footer a:first-child {
+  padding-left: 135px;
+}
+
+footer a:last-child {
+  padding-right: 161px;
+}
+
+footer span {
+  font-weight: 600;
+  font-size: 12px;
+  color: #5c92c0;
+  font-family: "Open sans", sans-serif;
+  position: relative;
+  top: 29px;
+  right: 416px;
+}
