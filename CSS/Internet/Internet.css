@@ -81,6 +81,7 @@ section {
 }
 
 .world {
+  margin-bottom: 0px;
 }
 
 .articles {
@@ -92,6 +93,7 @@ section {
 }
 
 .first-left-side {
+  margin-top: 50px;
   height: 102px;
   width: 214px;
 
@@ -149,7 +151,7 @@ section {
   text-align: center;
   position: relative;
   top: 153px;
-  right: -47px;
+  right: -40px;
   width: 181px;
   color: white;
 }
@@ -207,6 +209,15 @@ span3 {
   font-weight: 600;
   color: #2e6da3;
 }
+span4 {
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+}
+
+#small-pad {
+  margin-bottom: 5px;
+}
 
 /* ***************************************FOOTER**************************** */
 
@@ -217,7 +228,7 @@ footer {
 }
 
 .big3 {
-  margin: 30px 0 0 30px;
+  margin: 30px 0 30px 30px;
   width: 200px;
 }
 .footer p7 {
