@@ -2,18 +2,14 @@ console.log("page loaded...");
 
 var x = document.getElementById("myvideo");
 
-function playVid() {
+function over() {
+  console.log(x);
+  x.muted = false;
   x.play();
 }
 
-function pauseVid() {
-  x.pause();
-}
-
-function over() {
-  x.muted = true;
-}
-
 function out() {
-  x.muted = false;
+  console.log(x);
+  x.muted = true;
+  x.pause();
 }
