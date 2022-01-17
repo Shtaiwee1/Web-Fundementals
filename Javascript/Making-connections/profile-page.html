@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="profile-page.css" />
+    <link rel="stylesheet" href="Flex-navbar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-everything">
+      <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+          <li><a class="notactive" href="#">Home</a></li>
+          <li><a href="#" class="active">My Profile</a></li>
+          <li><a class="notactive" href="#">Find Connections</a></li>
+          <li><button class="btn">Sign Out</button></li>
+        </ul>
+      </div>
+      <div class="container-big">
+        <div class="left-contain">
+          <div class="container-usercard">
+            <div class="heading"></div>
+            <div class="info">
+              <img class="big" src="user-circle.png" alt="" />
+              <h1 id="change" class="name">Jane Doe</h1>
+              <div class="flex-1">
+                <img class="small-1" src="map-marker.png" alt="" />
+                <p class="seattle">Seattle</p>
+              </div>
+              <div class="desc">
+                <p>Developer|Engineer|Problem Solver</p>
+                <p>Master of shadows and the internet</p>
+              </div>
+              <div class="flex-2">
+                <img class="small-2" src="gear.png" alt="" />
+                <a onclick="display1(this)" href="#">edit profile</a>
+                <input
+                  onmouseout="out(this)"
+                  class="input"
+                  type="text"
+                  value=""
+                  placeholder="Any Name....."
+                  oninput="edit(this)"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="Education">
+            <div class="header">
+              <p>Education</p>
+            </div>
+            <div class="info1">
+              <h1 class="special1">Coding Dojo-Full Stack Bootcamp</h1>
+              <p class="special2">Dec 2019 - Mar 2020</p>
+              <p>Triple black belt in Python,MERN and C#</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-contain">
+          <div class="connection-requests">
+            <div class="header2">
+              <p id="special-num1">2</p>
+              <p>Connection Requests</p>
+            </div>
+            <div class="connection-requests-body">
+              <div class="free vanish">
+                <img class="person" id="todd" src="todd-s.jpg" alt="todd" />
+                <div class="connect">Todd E</div>
+                <img
+                  onclick="hide()"
+                  class="mark"
+                  src="accept-circle.png"
+                  alt=""
+                />
+                <img
+                  onclick="hide()"
+                  class="mark"
+                  src="close-circle.png"
+                  alt=""
+                />
+              </div>
+              <div class="free vanish1">
+                <img
+                  onclick="hide()"
+                  class="person"
+                  id="phil"
+                  src="phil-s.jpg"
+                  alt=""
+                />
+                <div class="connect">Phil K</div>
+                <img
+                  onclick="hide1()"
+                  class="mark"
+                  src="accept-circle.png"
+                  alt=""
+                />
+                <img
+                  onclick="hide1()"
+                  class="mark"
+                  src="close-circle.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="your-connections">
+            <div class="header3">
+              <p id="special-num2">500+</p>
+              <p>Your Connections</p>
+            </div>
+            <div class="your-connections-body">
+              <div class="free">
+                <img class="person" id="adrien" src="adrien-s.jpg" alt="" />
+                <div class="connect">Adrien D</div>
+              </div>
+              <div class="free">
+                <img class="person" id="anne" src="anne-s.jpg" alt="" />
+                <div class="connect">Anne J</div>
+              </div>
+              <div class="free">
+                <img class="person" id="alayne" src="alayne-s.jpg" alt="" />
+                <div class="connect">Alayne T</div>
+              </div>
+              <div class="free" id="arry1">
+                <img class="person" id="arry" src="arry-s.jpg" alt="" />
+                <div class="connect">Arry Y</div>
+              </div>
+              <div id="anchor">
+                <a href="#">View more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="profile-page.js"></script>
+</html>
