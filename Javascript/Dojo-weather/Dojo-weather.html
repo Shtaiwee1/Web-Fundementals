@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Dojo-weather.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="head1">
+        <h1>DojoWeather</h1>
+        <div class="subhead1">
+          <a onclick="alert('Loading weather report...')" href="#">Burbank</a>
+          <a onclick="alert('Loading weather report...')" href="#">Chicago</a>
+          <a onclick="alert('Loading weather report...')" href="#">Dallas</a>
+        </div>
+      </div>
+      <div class="head2">
+        <h2>San Jose</h2>
+        <div class="subhead2">
+          <label for="">show temperature in</label>
+          <select name="temp" id="">
+            <option value="">&#8451;</option>
+            <option value="">&#8457;</option>
+            <option value="">&#8490;</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="today">
+        <p id="par1" class="par1">Today</p>
+        <img src="some_rain.png" alt="rain" />
+        <p class="par2">some rain</p>
+        <div class="numbers">
+          <p class="red">24&#176;</p>
+          <p class="blue">18&#176;</p>
+        </div>
+      </div>
+      <div class="tomorrow">
+        <p class="par1">Tomorrow</p>
+        <img src="some_sun.png" alt="sun" />
+        <p class="par2">some sun</p>
+        <div class="numbers">
+          <p class="red">27&#176;</p>
+          <p class="blue">19&#176;</p>
+        </div>
+      </div>
+      <div class="friday">
+        <p id="par2" class="par1">Friday</p>
+        <img src="some_clouds.png" alt="clouds" />
+
+        <p class="par2">some clouds</p>
+        <div class="numbers">
+          <p class="red">21&#176;</p>
+          <p class="blue">16&#176;</p>
+        </div>
+      </div>
+      <div class="saturday">
+        <p class="par1">Saturday</p>
+        <img src="some_sun.png" alt="sun" />
+        <p class="par2">some sun</p>
+        <div class="numbers">
+          <p class="red">26&#176;</p>
+          <p class="blue">21&#176;</p>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <img src="cookie.png" alt="cookie-pic" />
+      <p>
+        <span2>Stop! Cookie time</span2> <br />We use cookies (sadly not the
+        edible ones) to personalize <br />
+        content ads,to provide social media features and to <br />
+        analyze our traffic.<span><a href="#">Read more...</a></span>
+      </p>
+
+      <button onclick="hide()">I Accept</button>
+    </footer>
+  </body>
+  <script src="Dojo-weather.js"></script>
+</html>
